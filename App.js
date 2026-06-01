@@ -17,21 +17,21 @@ export default function App() {
           name="Login"
           component={LoginScreen}
         />
-        
+
         <Stack.Screen
           name="Bookings"
           component={BookingListScreen}
         />
 
         <Stack.Screen
-  name="BookingDetails"
-  component={BookingDetailsScreen}
-/>
+          name="BookingDetails"
+          component={BookingDetailsScreen}
+        />
 
-<Stack.Screen
-  name="PublishAvailability"
-  component={PublishAvailabilityScreen}
-/>
+        <Stack.Screen
+          name="PublishAvailability"
+          component={PublishAvailabilityScreen}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
