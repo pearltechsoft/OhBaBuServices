@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "OhBaBuServices",
-    "slug": "OhBaBuServices",
+    "name": "OhBaBu",
+    "slug": "obbuserapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,14 +16,24 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.pearltechsoft.ohbabu",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFFFFF"
       },
-      "edgeToEdgeEnabled": true
+      "blockedPermissions": [
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": "myapp",
+    "plugins": [
+  "@react-native-firebase/app",
+  "@react-native-firebase/auth"
+]
   }
 }
