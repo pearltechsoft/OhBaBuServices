@@ -48,3 +48,5 @@ yarn-error.*
 
 
 ptssobb-firebase-adminsdk-fbsvc-45b9537968.json
+# Firebase credentials
+*firebase-adminsdk*.json
