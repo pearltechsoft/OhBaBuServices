@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "OhBaBu",
-    "slug": "obbuserapp",
+    "name": "Services",
+    "slug": "services",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,7 +16,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.pearltechsoft.ohbabu",
+      "package": "com.pearltechsoft.ohbabuservices",
       "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -32,8 +32,13 @@
     },
     "scheme": "myapp",
     "plugins": [
-  "@react-native-firebase/app",
-  "@react-native-firebase/auth"
-]
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e605096b-5a81-4f5b-bed7-280ca2cdc244"
+      }
+    }
   }
 }
