@@ -44,3 +44,7 @@ yarn-error.*
 .env.*
 !.env.example
 !.env.example.*
+
+
+
+ptssobb-firebase-adminsdk-fbsvc-45b9537968.json
